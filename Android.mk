@@ -35,7 +35,7 @@ LOCAL_CFLAGS += -O3 -fstrict-aliasing -fprefetch-loop-arrays
 # enable tile based decode
 LOCAL_CFLAGS += -DANDROID_TILE_BASED_DECODE
 
-<<<<<<< HEAD
+
 # enable neon assembly
 ifeq ($(ARCH_ARM_HAVE_NEON),true)
 LOCAL_CFLAGS += -D__ARM_HAVE_NEON
